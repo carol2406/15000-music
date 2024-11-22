@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>9509eaf8fb24495db72587d275c62ac4</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="15000-músicas---19-gêneros-com-dados-do-spotify"
+class="cell markdown">
+<h1>15.000 Músicas - 19 Gêneros (com Dados do Spotify)</h1>
+<p>Descrição do conjunto de dados: O conjunto de dados é uma coleção
+abrangente de 15.150 clássicos de 3.083 artistas, abrangendo um século
+de história da música de 1923 a 2023. Esse conjunto de dados
+diversificado está dividido em 19 gêneros distintos, mostrando a
+evolução da música popular ao longo de diferentes épocas e estilos. Cada
+faixa do conjunto de dados é enriquecida com recursos de áudio do
+Spotify, oferecendo insights detalhados sobre as propriedades acústicas,
+ritmo, tempo e outras características musicais.</p>
+<p>Variáveis:</p>
+<ul>
+<li>Track (Faixa) - Nome da música</li>
+<li>Artist (Artista) - Nome do artista ou banda</li>
+<li>Year (Ano) - Ano de lançamento da música</li>
+<li>Duration (Duração) - Duração da música em milissegundos</li>
+<li>Time_Signature (Compasso) - Compasso musical da música (ex:
+4/4)</li>
+<li>Danceability (Dançabilidade) - Medida de quão adequada a música é
+para dançar (de 0 a 1)</li>
+<li>Energy (Energia) - Medida da intensidade e atividade da música (de 0
+a 1)</li>
+<li>Key (Tom) - Tom da música (ex: 0=C)</li>
+<li>Loudness (Volume) - Volume geral da música em decibéis (dB)</li>
+<li>Mode (Modo) - Modalidade da música (maior ou menor)</li>
+<li>Speechiness (Falado) - Medida da presença de palavras faladas na
+música (de 0 a 1)</li>
+<li>Acousticness (Acústica) - Medida de quão acústica a música é (de 0 a
+1)</li>
+<li>Instrumentalness (Instrumental) - Medida da probabilidade da música
+ser instrumental (de 0 a 1)</li>
+<li>Liveness (Ao Vivo) - Medida da presença de público ao vivo na
+gravação (de 0 a 1)</li>
+<li>Valence (Valência) - Medida da positividade da música (de 0 a
+1)</li>
+<li>Tempo (Tempo) - Velocidade da música em batidas por minuto
+(BPM)</li>
+<li>Popularity (Popularidade) - Medida da popularidade da música (de 0 a
+100)</li>
+<li>Genre (Gênero) - Gênero musicalnero) - Gênero musical</li>
+</ul>
+</section>
+<section id="conhecendo-os-dados" class="cell markdown">
+<h1>Conhecendo os dados</h1>
+</section>
+<div class="cell code" data-execution_count="65"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:13.933076Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:13.932616Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:13.941054Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:13.939673Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:13.933037Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> statsmodels.api <span class="im">as</span> sm</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeRegressor</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neighbors <span class="im">import</span> KNeighborsRegressor</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neural_network <span class="im">import</span> MLPRegressor</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_absolute_error</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> OneHotEncoder</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> r2_score, mean_squared_error</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="66"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:13.943819Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:13.943405Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:14.020895Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:14.019747Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:13.943744Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Leitura dos dados</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>dados <span class="op">=</span> pd.read_csv(<span class="st">&#39;../input/10400-classic-hits-10-genres-1923-to-2023/ClassicHit.csv&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="67"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:14.023011Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:14.022515Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:14.045017Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:14.042972Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:14.022964Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Informações dos dados coletados</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>dados.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 15150 entries, 0 to 15149
+Data columns (total 18 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   Track             15150 non-null  object 
+ 1   Artist            15150 non-null  object 
+ 2   Year              15150 non-null  int64  
+ 3   Duration          15150 non-null  int64  
+ 4   Time_Signature    15150 non-null  int64  
+ 5   Danceability      15150 non-null  float64
+ 6   Energy            15150 non-null  float64
+ 7   Key               15150 non-null  int64  
+ 8   Loudness          15150 non-null  float64
+ 9   Mode              15150 non-null  int64  
+ 10  Speechiness       15150 non-null  float64
+ 11  Acousticness      15150 non-null  float64
+ 12  Instrumentalness  15150 non-null  float64
+ 13  Liveness          15150 non-null  float64
+ 14  Valence           15150 non-null  float64
+ 15  Tempo             15150 non-null  float64
+ 16  Popularity        15150 non-null  int64  
+ 17  Genre             15150 non-null  object 
+dtypes: float64(9), int64(6), object(3)
+memory usage: 2.1+ MB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="68"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:14.047090Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:14.046671Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:14.074601Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:14.072937Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:14.047058Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>dados.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="68">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Track</th>
+      <th>Artist</th>
+      <th>Year</th>
+      <th>Duration</th>
+      <th>Time_Signature</th>
+      <th>Danceability</th>
+      <th>Energy</th>
+      <th>Key</th>
+      <th>Loudness</th>
+      <th>Mode</th>
+      <th>Speechiness</th>
+      <th>Acousticness</th>
+      <th>Instrumentalness</th>
+      <th>Liveness</th>
+      <th>Valence</th>
+      <th>Tempo</th>
+      <th>Popularity</th>
+      <th>Genre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Hey Jack Kerouac</td>
+      <td>10,000 Maniacs</td>
+      <td>1987</td>
+      <td>206413</td>
+      <td>4</td>
+      <td>0.616</td>
+      <td>0.511</td>
+      <td>6</td>
+      <td>-15.894</td>
+      <td>1</td>
+      <td>0.0279</td>
+      <td>0.03840</td>
+      <td>0.000000</td>
+      <td>0.1500</td>
+      <td>0.604</td>
+      <td>132.015</td>
+      <td>40</td>
+      <td>Alt. Rock</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Like the Weather</td>
+      <td>10,000 Maniacs</td>
+      <td>1987</td>
+      <td>236653</td>
+      <td>4</td>
+      <td>0.770</td>
+      <td>0.459</td>
+      <td>1</td>
+      <td>-17.453</td>
+      <td>1</td>
+      <td>0.0416</td>
+      <td>0.11200</td>
+      <td>0.003430</td>
+      <td>0.1450</td>
+      <td>0.963</td>
+      <td>133.351</td>
+      <td>43</td>
+      <td>Alt. Rock</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>What's the Matter Here?</td>
+      <td>10,000 Maniacs</td>
+      <td>1987</td>
+      <td>291173</td>
+      <td>4</td>
+      <td>0.593</td>
+      <td>0.816</td>
+      <td>9</td>
+      <td>-7.293</td>
+      <td>1</td>
+      <td>0.0410</td>
+      <td>0.00449</td>
+      <td>0.000032</td>
+      <td>0.0896</td>
+      <td>0.519</td>
+      <td>99.978</td>
+      <td>12</td>
+      <td>Alt. Rock</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Trouble Me</td>
+      <td>10,000 Maniacs</td>
+      <td>1989</td>
+      <td>193560</td>
+      <td>4</td>
+      <td>0.861</td>
+      <td>0.385</td>
+      <td>2</td>
+      <td>-10.057</td>
+      <td>1</td>
+      <td>0.0341</td>
+      <td>0.15400</td>
+      <td>0.000000</td>
+      <td>0.1230</td>
+      <td>0.494</td>
+      <td>117.913</td>
+      <td>47</td>
+      <td>Alt. Rock</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Candy Everybody Wants</td>
+      <td>10,000 Maniacs</td>
+      <td>1992</td>
+      <td>185960</td>
+      <td>4</td>
+      <td>0.622</td>
+      <td>0.876</td>
+      <td>10</td>
+      <td>-6.310</td>
+      <td>1</td>
+      <td>0.0305</td>
+      <td>0.01930</td>
+      <td>0.006840</td>
+      <td>0.0987</td>
+      <td>0.867</td>
+      <td>104.970</td>
+      <td>43</td>
+      <td>Alt. Rock</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="69"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:14.078396Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:14.077937Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:14.106089Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:14.104745Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:14.078312Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Contar o número de linhas duplicadas</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>duplicadas <span class="op">=</span> dados.duplicated()</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Número de linhas duplicadas:&quot;</span>, duplicadas.<span class="bu">sum</span>())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Número de linhas duplicadas: 1
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="70"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:14.108220Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:14.107729Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:14.131963Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:14.130874Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:14.108171Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Remover as linhas duplicadas:</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>dados <span class="op">=</span> dados.drop_duplicates()</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="71"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:14.133705Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:14.133336Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:14.145587Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:14.144292Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:14.133671Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Contar valores nulos em todas as colunas</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>valores_nulos <span class="op">=</span> dados.isnull().<span class="bu">sum</span>()</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Número de valores nulos por coluna:</span><span class="ch">\n</span><span class="st">&quot;</span>, valores_nulos)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Número de valores nulos por coluna:
+ Track               0
+Artist              0
+Year                0
+Duration            0
+Time_Signature      0
+Danceability        0
+Energy              0
+Key                 0
+Loudness            0
+Mode                0
+Speechiness         0
+Acousticness        0
+Instrumentalness    0
+Liveness            0
+Valence             0
+Tempo               0
+Popularity          0
+Genre               0
+dtype: int64
+</code></pre>
+</div>
+</div>
+<section id="explorando-os-dados" class="cell markdown">
+<h1>Explorando os dados</h1>
+</section>
+<div class="cell code" data-execution_count="72"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:14.147694Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:14.147234Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:14.165109Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:14.163266Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:14.147646Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Agrupando por gênero e contando as ocorrências</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>genero_contagem <span class="op">=</span> dados[<span class="st">&#39;Genre&#39;</span>].value_counts()</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(genero_contagem)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Genre
+Pop          3669
+Metal         922
+Country       833
+R&amp;B           822
+Rock          799
+Alt. Rock     780
+Jazz          778
+Punk          754
+Rap           718
+EDM           699
+Blues         683
+Disco         652
+Today         620
+Folk          575
+Reggae        439
+Funk          388
+SKA           381
+World         326
+Gospel        311
+Name: count, dtype: int64
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="73"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:14.168293Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:14.166959Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:14.192180Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:14.190968Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:14.168153Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Artistas mais populares</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>artist_mais_pop <span class="op">=</span> dados.groupby(<span class="st">&#39;Artist&#39;</span>)[<span class="st">&#39;Popularity&#39;</span>].mean().sort_values(ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>top_artist_mais_pop <span class="op">=</span> artist_mais_pop.head(<span class="dv">10</span>)</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(top_artist_mais_pop)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Artist
+Tierra                        92.0
+Ronny &amp; the Daytonas          92.0
+Barenaked Ladies              91.0
+Skylark                       90.0
+Suzi Quatro &amp; Chris Norman    90.0
+a-ha                          88.0
+Martha &amp; the Vandellas        88.0
+Jon B. featuring Babyface     87.0
+SWV and Puff Daddy            87.0
+Brandy and Monica             86.0
+Name: Popularity, dtype: float64
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="74"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:14.194354Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:14.193874Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:14.212894Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:14.211580Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:14.194305Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Artistas mais populares no gênero pop</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>artistas_pop <span class="op">=</span> dados[dados[<span class="st">&#39;Genre&#39;</span>] <span class="op">==</span> <span class="st">&#39;Pop&#39;</span>].groupby(<span class="st">&#39;Artist&#39;</span>)[<span class="st">&#39;Popularity&#39;</span>].mean().sort_values(ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(artistas_pop.head(<span class="dv">10</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Artist
+Tierra                        92.0
+Ronny &amp; the Daytonas          92.0
+Barenaked Ladies              91.0
+Skylark                       90.0
+Suzi Quatro &amp; Chris Norman    90.0
+a-ha                          88.0
+Martha &amp; the Vandellas        88.0
+Jon B. featuring Babyface     87.0
+SWV and Puff Daddy            87.0
+Inez &amp; Charlie Foxx           86.0
+Name: Popularity, dtype: float64
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="75"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:14.216135Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:14.215245Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:14.230723Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:14.228889Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:14.216082Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Contar o número de músicas por artista</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>artistas_com_mais_musicas <span class="op">=</span> dados[<span class="st">&#39;Artist&#39;</span>].value_counts()</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Exibir os 10 artistas com mais músicas</span></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(artistas_com_mais_musicas.head(<span class="dv">10</span>))</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Artist
+Elton John            54
+Michael Jackson       37
+Bee Gees              36
+The Rolling Stones    33
+Chicago               32
+Bob Dylan             31
+Madonna               31
+The Beatles           31
+Deep Purple           30
+Stevie Wonder         30
+Name: count, dtype: int64
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="76"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:14.232902Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:14.232410Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:15.678573Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:15.676598Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:14.232860Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&#39;ignore&#39;</span>)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Histograma</span></span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Supondo que &#39;dados&#39; seja seu DataFrame</span></span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>sns.histplot(data<span class="op">=</span>dados, x<span class="op">=</span><span class="st">&#39;Energy&#39;</span>, kde<span class="op">=</span><span class="va">True</span>, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>)</span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribuição de Energy&#39;</span>)</span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>sns.histplot(data<span class="op">=</span>dados, x<span class="op">=</span><span class="st">&#39;Danceability&#39;</span>, kde<span class="op">=</span><span class="va">True</span>, color<span class="op">=</span><span class="st">&#39;green&#39;</span>)</span>
+<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribuição de Danceability&#39;</span>)</span>
+<span id="cb19-13"><a href="#cb19-13" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb19-14"><a href="#cb19-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-15"><a href="#cb19-15" aria-hidden="true" tabindex="-1"></a>sns.histplot(data<span class="op">=</span>dados, x<span class="op">=</span><span class="st">&#39;Loudness&#39;</span>, kde<span class="op">=</span><span class="va">True</span>, color<span class="op">=</span><span class="st">&#39;pink&#39;</span>)</span>
+<span id="cb19-16"><a href="#cb19-16" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribuição de Loudness&#39;</span>)</span>
+<span id="cb19-17"><a href="#cb19-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_5737174b85a0472d8c93b21dd96ca5ca/ac9f490038b5f17b4f17a85e3c92df8fd54386b0.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_5737174b85a0472d8c93b21dd96ca5ca/defbd3a38e37a182acfeac1e89b9559b9ff91ea9.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_5737174b85a0472d8c93b21dd96ca5ca/5a7409f7d3484717f05136920f5c3217f30d1d50.png" /></p>
+</div>
+</div>
+<section id="aplicando-modelos" class="cell markdown">
+<h1>Aplicando modelos</h1>
+</section>
+<div class="cell code" data-execution_count="77"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:15.682048Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:15.681636Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:16.775454Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:16.774294Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:15.682010Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Selecionar apenas colunas numéricas para calcular a correlação</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>dados_numericos <span class="op">=</span> dados.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;float64&#39;</span>, <span class="st">&#39;int64&#39;</span>])</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcular a correlação entre todas as variáveis numéricas</span></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>correlacao <span class="op">=</span> dados_numericos.corr()</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">8</span>))</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>sns.heatmap(correlacao, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>, fmt<span class="op">=</span><span class="st">&#39;.2f&#39;</span>, linewidths<span class="op">=</span><span class="fl">0.5</span>)</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Matriz de Correlação entre as Variáveis&#39;</span>)</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_5737174b85a0472d8c93b21dd96ca5ca/e662217178886fce97971ace8dd62575110b2e1e.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>A correlação entre Loudness e Energy é forte, com um valor de 0.746.
+Sugerindo que músicas mais energéticas tendem a ter um volume maior. E a
+relação entre Danceability e Valence sugere que músicas com uma valência
+positiva (mais alegres) são mais dançáveis.</p>
+</div>
+<div class="cell code" data-execution_count="78"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:16.777587Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:16.777105Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:16.784288Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:16.783002Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:16.777537Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(dados.columns)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Index([&#39;Track&#39;, &#39;Artist&#39;, &#39;Year&#39;, &#39;Duration&#39;, &#39;Time_Signature&#39;, &#39;Danceability&#39;,
+       &#39;Energy&#39;, &#39;Key&#39;, &#39;Loudness&#39;, &#39;Mode&#39;, &#39;Speechiness&#39;, &#39;Acousticness&#39;,
+       &#39;Instrumentalness&#39;, &#39;Liveness&#39;, &#39;Valence&#39;, &#39;Tempo&#39;, &#39;Popularity&#39;,
+       &#39;Genre&#39;],
+      dtype=&#39;object&#39;)
+</code></pre>
+</div>
+</div>
+<section id="árvore-de-decisão" class="cell markdown">
+<h1>Árvore de Decisão</h1>
+</section>
+<div class="cell code" data-execution_count="79"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:16.785967Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:16.785557Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:31.913467Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:31.912095Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:16.785935Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajustar o nome da coluna alvo se necessário</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>coluna_alvo <span class="op">=</span><span class="st">&#39;Loudness&#39;</span> </span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Criar os conjuntos de treino e teste</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> dados[[<span class="st">&#39;Energy&#39;</span>, <span class="st">&#39;Danceability&#39;</span>]]</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> dados[<span class="st">&#39;Loudness&#39;</span>]</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Dividir os dados em conjuntos de treino e teste</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.3</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Criar o modelo de árvore de decisão</span></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>clf <span class="op">=</span>MLPRegressor(random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Treinar o modelo</span></span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>clf.fit(X_train, y_train)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="79">
+<style>#sk-container-id-4 {color: black;background-color: white;}#sk-container-id-4 pre{padding: 0;}#sk-container-id-4 div.sk-toggleable {background-color: white;}#sk-container-id-4 label.sk-toggleable__label {cursor: pointer;display: block;width: 100%;margin-bottom: 0;padding: 0.3em;box-sizing: border-box;text-align: center;}#sk-container-id-4 label.sk-toggleable__label-arrow:before {content: "▸";float: left;margin-right: 0.25em;color: #696969;}#sk-container-id-4 label.sk-toggleable__label-arrow:hover:before {color: black;}#sk-container-id-4 div.sk-estimator:hover label.sk-toggleable__label-arrow:before {color: black;}#sk-container-id-4 div.sk-toggleable__content {max-height: 0;max-width: 0;overflow: hidden;text-align: left;background-color: #f0f8ff;}#sk-container-id-4 div.sk-toggleable__content pre {margin: 0.2em;color: black;border-radius: 0.25em;background-color: #f0f8ff;}#sk-container-id-4 input.sk-toggleable__control:checked~div.sk-toggleable__content {max-height: 200px;max-width: 100%;overflow: auto;}#sk-container-id-4 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {content: "▾";}#sk-container-id-4 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-4 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-4 input.sk-hidden--visually {border: 0;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}#sk-container-id-4 div.sk-estimator {font-family: monospace;background-color: #f0f8ff;border: 1px dotted black;border-radius: 0.25em;box-sizing: border-box;margin-bottom: 0.5em;}#sk-container-id-4 div.sk-estimator:hover {background-color: #d4ebff;}#sk-container-id-4 div.sk-parallel-item::after {content: "";width: 100%;border-bottom: 1px solid gray;flex-grow: 1;}#sk-container-id-4 div.sk-label:hover label.sk-toggleable__label {background-color: #d4ebff;}#sk-container-id-4 div.sk-serial::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: 0;}#sk-container-id-4 div.sk-serial {display: flex;flex-direction: column;align-items: center;background-color: white;padding-right: 0.2em;padding-left: 0.2em;position: relative;}#sk-container-id-4 div.sk-item {position: relative;z-index: 1;}#sk-container-id-4 div.sk-parallel {display: flex;align-items: stretch;justify-content: center;background-color: white;position: relative;}#sk-container-id-4 div.sk-item::before, #sk-container-id-4 div.sk-parallel-item::before {content: "";position: absolute;border-left: 1px solid gray;box-sizing: border-box;top: 0;bottom: 0;left: 50%;z-index: -1;}#sk-container-id-4 div.sk-parallel-item {display: flex;flex-direction: column;z-index: 1;position: relative;background-color: white;}#sk-container-id-4 div.sk-parallel-item:first-child::after {align-self: flex-end;width: 50%;}#sk-container-id-4 div.sk-parallel-item:last-child::after {align-self: flex-start;width: 50%;}#sk-container-id-4 div.sk-parallel-item:only-child::after {width: 0;}#sk-container-id-4 div.sk-dashed-wrapped {border: 1px dashed gray;margin: 0 0.4em 0.5em 0.4em;box-sizing: border-box;padding-bottom: 0.4em;background-color: white;}#sk-container-id-4 div.sk-label label {font-family: monospace;font-weight: bold;display: inline-block;line-height: 1.2em;}#sk-container-id-4 div.sk-label-container {text-align: center;}#sk-container-id-4 div.sk-container {/* jupyter's `normalize.less` sets `[hidden] { display: none; }` but bootstrap.min.css set `[hidden] { display: none !important; }` so we also need the `!important` here to be able to override the default hidden behavior on the sphinx rendered scikit-learn.org. See: https://github.com/scikit-learn/scikit-learn/issues/21755 */display: inline-block !important;position: relative;}#sk-container-id-4 div.sk-text-repr-fallback {display: none;}</style><div id="sk-container-id-4" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>MLPRegressor(random_state=42)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class="sk-container" hidden><div class="sk-item"><div class="sk-estimator sk-toggleable"><input class="sk-toggleable__control sk-hidden--visually" id="sk-estimator-id-4" type="checkbox" checked><label for="sk-estimator-id-4" class="sk-toggleable__label sk-toggleable__label-arrow">MLPRegressor</label><div class="sk-toggleable__content"><pre>MLPRegressor(random_state=42)</pre></div></div></div></div></div>
+</div>
+</div>
+<div class="cell code" data-execution_count="80"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:31.915663Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:31.915088Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:45.819391Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:45.814890Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:31.915600Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Definir as variáveis independentes (X) e dependente (y)</span></span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> dados[[<span class="st">&#39;Energy&#39;</span>, <span class="st">&#39;Danceability&#39;</span>]]</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> dados[<span class="st">&#39;Loudness&#39;</span>]</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Dividir os dados em conjuntos de treino e teste</span></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.3</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Criar e treinar o modelo de regressão</span></span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>clf <span class="op">=</span> MLPRegressor(random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>clf.fit(X_train, y_train)</span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Fazer previsões nos dados de teste</span></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> clf.predict(X_test)</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar as primeiras previsões</span></span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Previsões:&quot;</span>, y_pred[:<span class="dv">10</span>])</span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Avaliar o modelo com métricas de desempenho</span></span>
+<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a>r2 <span class="op">=</span> r2_score(y_test, y_pred)</span>
+<span id="cb24-20"><a href="#cb24-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-21"><a href="#cb24-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Coeficiente de determinação (R²):&quot;</span>, r2)</span>
+<span id="cb24-22"><a href="#cb24-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-23"><a href="#cb24-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Debug: Verificar as colunas de treino e teste</span></span>
+<span id="cb24-24"><a href="#cb24-24" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Colunas de treino:&quot;</span>, X_train.columns)</span>
+<span id="cb24-25"><a href="#cb24-25" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Colunas de teste:&quot;</span>, X_test.columns)</span>
+<span id="cb24-26"><a href="#cb24-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-27"><a href="#cb24-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Mostrar as primeiras linhas do conjunto de teste</span></span>
+<span id="cb24-28"><a href="#cb24-28" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Primeiras linhas de X_test:&quot;</span>)</span>
+<span id="cb24-29"><a href="#cb24-29" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(X_test.head())</span>
+<span id="cb24-30"><a href="#cb24-30" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Previsões: [ -7.95486375  -9.81744346  -8.78516292 -11.35259048  -8.36180356
+  -6.92926195  -6.14572076  -7.79105414  -6.07256523 -14.78158706]
+Coeficiente de determinação (R²): 0.5944417512748978
+Colunas de treino: Index([&#39;Energy&#39;, &#39;Danceability&#39;], dtype=&#39;object&#39;)
+Colunas de teste: Index([&#39;Energy&#39;, &#39;Danceability&#39;], dtype=&#39;object&#39;)
+Primeiras linhas de X_test:
+       Energy  Danceability
+566     0.715         0.443
+8618    0.517         0.701
+8036    0.613         0.669
+14772   0.404         0.750
+6910    0.680         0.421
+</code></pre>
+</div>
+</div>
+<section id="random-forest" class="cell markdown">
+<h1>Random Forest</h1>
+</section>
+<div class="cell code" data-execution_count="81"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2024-11-22T12:19:45.824375Z&quot;,&quot;iopub.status.busy&quot;:&quot;2024-11-22T12:19:45.821266Z&quot;,&quot;iopub.status.idle&quot;:&quot;2024-11-22T12:19:47.124937Z&quot;,&quot;shell.execute_reply&quot;:&quot;2024-11-22T12:19:47.123544Z&quot;,&quot;shell.execute_reply.started&quot;:&quot;2024-11-22T12:19:45.824277Z&quot;}"
+data-trusted="true">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Verificar as colunas do DataFrame</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(dados.columns)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Ajustar o nome da coluna alvo se necessário</span></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>coluna_alvo <span class="op">=</span> <span class="st">&#39;Loudness&#39;</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Criar os conjuntos de treino e teste</span></span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> dados[[<span class="st">&#39;Energy&#39;</span>, <span class="st">&#39;Danceability&#39;</span>]]</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> dados[<span class="st">&#39;Loudness&#39;</span> ] </span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Dividir os dados em conjuntos de treino e teste</span></span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.3</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Definir o modelo de Random Forest</span></span>
+<span id="cb26-14"><a href="#cb26-14" aria-hidden="true" tabindex="-1"></a>random_forest_regressor <span class="op">=</span> RandomForestRegressor(n_estimators<span class="op">=</span><span class="dv">100</span>, max_depth<span class="op">=</span><span class="dv">5</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb26-15"><a href="#cb26-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-16"><a href="#cb26-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Treinar o modelo</span></span>
+<span id="cb26-17"><a href="#cb26-17" aria-hidden="true" tabindex="-1"></a>random_forest_regressor.fit(X_train, y_train)</span>
+<span id="cb26-18"><a href="#cb26-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-19"><a href="#cb26-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Fazer previsões nos dados de teste</span></span>
+<span id="cb26-20"><a href="#cb26-20" aria-hidden="true" tabindex="-1"></a>y_pred_rf <span class="op">=</span> random_forest_regressor.predict(X_test)</span>
+<span id="cb26-21"><a href="#cb26-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-22"><a href="#cb26-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualizar os dados reais e a previsão da Random Forest</span></span>
+<span id="cb26-23"><a href="#cb26-23" aria-hidden="true" tabindex="-1"></a>plt.scatter(X_test[<span class="st">&#39;Energy&#39;</span>], y_test, color<span class="op">=</span><span class="st">&#39;blue&#39;</span>, label<span class="op">=</span><span class="st">&#39;Dados reais&#39;</span>)</span>
+<span id="cb26-24"><a href="#cb26-24" aria-hidden="true" tabindex="-1"></a>plt.scatter(X_test[<span class="st">&#39;Danceability&#39;</span>], y_pred_rf, color<span class="op">=</span><span class="st">&#39;yellow&#39;</span>, label<span class="op">=</span><span class="st">&#39;Previsão da Random Forest&#39;</span>, marker<span class="op">=</span><span class="st">&#39;x&#39;</span>)</span>
+<span id="cb26-25"><a href="#cb26-25" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Loudness&#39;</span>)</span>
+<span id="cb26-26"><a href="#cb26-26" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Energy&#39;</span>)</span>
+<span id="cb26-27"><a href="#cb26-27" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Random Forest entre Loudness e Energy&#39;</span>)</span>
+<span id="cb26-28"><a href="#cb26-28" aria-hidden="true" tabindex="-1"></a>plt.legend()</span>
+<span id="cb26-29"><a href="#cb26-29" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb26-30"><a href="#cb26-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-31"><a href="#cb26-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Avaliação do modelo</span></span>
+<span id="cb26-32"><a href="#cb26-32" aria-hidden="true" tabindex="-1"></a>mse_rf <span class="op">=</span> mean_squared_error(y_test, y_pred_rf)</span>
+<span id="cb26-33"><a href="#cb26-33" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Erro quadrático médio (MSE) da Random Forest: </span><span class="sc">{</span>mse_rf<span class="sc">:.2f}</span><span class="ss">&quot;</span>)</span>
+<span id="cb26-34"><a href="#cb26-34" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Index([&#39;Track&#39;, &#39;Artist&#39;, &#39;Year&#39;, &#39;Duration&#39;, &#39;Time_Signature&#39;, &#39;Danceability&#39;,
+       &#39;Energy&#39;, &#39;Key&#39;, &#39;Loudness&#39;, &#39;Mode&#39;, &#39;Speechiness&#39;, &#39;Acousticness&#39;,
+       &#39;Instrumentalness&#39;, &#39;Liveness&#39;, &#39;Valence&#39;, &#39;Tempo&#39;, &#39;Popularity&#39;,
+       &#39;Genre&#39;],
+      dtype=&#39;object&#39;)
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_5737174b85a0472d8c93b21dd96ca5ca/fe63677a6af2ec5c909fa1f0c7667eb1d5a06952.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>Erro quadrático médio (MSE) da Random Forest: 7.42
+</code></pre>
+</div>
+</div>
+</body>
+</html>
